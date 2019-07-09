@@ -5,7 +5,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { TodoListComponent } from './todo/todo-list/todo-list.component';
 import { TodoListItemComponent } from './todo/todo-list/todo-list-item/todo-list-item.component';
-import { TodoListDetailComponent } from './todo/todo-list-detail/todo-list-detail.component';
 import { TodoListEditComponent } from './todo/todo-list-edit/todo-list-edit.component';
 import { AuthComponent } from './auth/auth.component';
 import { HeaderComponent } from './core/header/header.component';
@@ -17,7 +16,6 @@ import { MaterialModule } from './shared/material.module';
     AppComponent,
     TodoListComponent,
     TodoListItemComponent,
-    TodoListDetailComponent,
     TodoListEditComponent,
     AuthComponent,
     HeaderComponent,
