@@ -1,1 +1,5 @@
-<p>todo-list works!</p>
+<mat-selection-list #list [(ngModel)]="selectedOptions" (selectionChange)="onSelectionChange($event)">
+  <mat-list-option *ngFor="let item of listItems" [value]="item" [selected]="item.isComplete">
+    {{item.taskName}}
+  </mat-list-option>
+</mat-selection-list>
